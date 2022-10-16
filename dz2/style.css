@@ -1,0 +1,43 @@
+.menu{
+    text-align: center;
+}
+.menu>li.menu-item{
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 30px;
+}
+.menu>li.menu-item>a{
+    border-radius: 20px;
+    background-color:coral;
+    color:black;
+    font-size: x-large;
+    padding: 18px 15px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu>li.menu-item>a:hover{
+    background-color:chocolate;
+    color:darkgray;
+}
+.menu-vertical{
+    text-align: left;   
+    display: inline-block;
+        
+}
+.menu2>li.menu-item2{
+    list-style-type: none;
+    margin: 40px;
+}
+.menu2>li.menu-item2>a{
+    border-radius: 20px;
+    background-color:blueviolet;
+    color:black;
+    font-size: x-large;
+    padding: 18px 15px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu2>li.menu-item2>a:hover{
+    background-color:darkorchid;
+    color: darkgray;
+}
